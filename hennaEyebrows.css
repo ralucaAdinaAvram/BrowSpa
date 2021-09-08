@@ -1,0 +1,202 @@
+
+*{
+    margin:0 ;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+/*==========================   Quick Contact Start                ======================================*/
+.container_contact{
+    display:flex;
+    height: 15px;
+    padding:10px 10px;
+}
+.fa-phone-alt{
+ padding: 5px 5px;
+}
+
+.fa-envelope{
+color: black;
+padding: 5px 5px;
+
+}
+
+/*=========       Quick Contact End    ====================================*/
+
+/**/
+/**/
+
+/*==============            Navigation Menu Start             ================*/
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    color:white;
+    opacity:0.9;
+    }
+    
+    nav p{
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+       font-size: 24px;
+        line-height: 100px;
+        letter-spacing: 3px;
+        float:left;
+        padding:0px 20px;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right:10%;
+        
+    }
+    
+    nav ul li{
+        float:right;
+        list-style:none;
+        position:relative;
+        
+    }
+    
+    nav ul li a{
+        display: block;
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        letter-spacing: 1px;
+        font-size: 22px;
+        padding: 17.5px 14px;
+        text-decoration:none;
+    }
+    
+    nav ul li ul{
+        display: none;
+        position:absolute;
+        background-color:#5e5b5b;
+        color:white;
+        padding:1px;
+        border-radius: 0px 0px 2px 2px;  
+        
+    }
+    
+    nav ul li:hover ul{
+        display: block; 
+        
+    }
+    
+    nav ul li ul li {
+        margin-top:0px;
+         width:215px;
+         border-radius: 2px; 
+    }
+    
+    nav ul li ul li a{
+        padding: 8px 14px;
+    }
+    
+    nav ul li ul li a:hover{
+        background-color:#aaa4a4;
+    }
+
+    nav ul li :hover {
+        background-color:#5e5b5b;
+    }
+
+/*==============            Navigation Menu End             ================*/
+
+/*========================   Henna Eyebrows Start    ============================*/
+
+.henna_container{
+     width: 100%; 
+     display:flex;
+     margin-left:20px;
+}
+
+.henna_topLeft{
+    width:50%;
+    margin-left:30px;
+}
+
+.henna_content h2{
+    margin-bottom:23px;
+    align-items: center;
+}
+
+.henna_content p{
+    text-indent: 25px;
+}
+
+.line{
+    height:600px;
+    margin-top:10px;
+    background-color: black;
+    width:4px;
+}
+
+
+/*========================   Henna Eyebrows End    ============================*/
+
+
+
+
+
+
+
+
+/*==================   Footer Start  =======================*/
+
+.footer{
+    margin-top: 300px;
+    display:flex; 
+    background-color: black;
+    color:#f4f4f4;
+}
+
+.inner_footer{
+    
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.logo_container{
+    margin: 0 170px;
+}
+
+.logo_container{
+    font-family:Arial, Helvetica, sans-serif;
+        color:white;
+       font-size: 24px;
+        line-height: 100px;
+        letter-spacing: 3px;
+        padding:0px 20px;
+}
+
+.inner_third{
+    padding:20px;
+    
+}
+
+.container {
+
+    margin-top: 0px;
+    padding: 2px 2px 2px 2px;
+    height: 40px;
+}
+
+.inner_third a{
+    color:#f4f4f4;
+}
+
+.inner_third h3
+{
+margin-bottom:10px;
+}
+
+
+/*==================   Footer End     =======================*/
